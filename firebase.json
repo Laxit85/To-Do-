@@ -1,0 +1,17 @@
+{
+    "hosting": {
+    "site": "todolist-e68fd-e87cf",
+    "public": "public",
+    "ignore": [
+    "firebase.json",
+    "/.*",
+    "/node_modules/"
+    ],
+    "rewrites": [
+    {
+    "source": "",
+    "destination": "/index.html"
+    }
+    ]
+    }
+    }
